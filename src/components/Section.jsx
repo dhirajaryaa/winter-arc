@@ -1,11 +1,12 @@
 
-function Section({ children, title, description }) {
+function Section({ children, title, isCompleted }) {
     return (
-        <div className="space-y-3 space-x-2 my-4">
-            <h2 className="text-xl font-semibold">{title}</h2>
-            <p className="text-sm ">{description}</p>
+        <section className="mt-10">
+            <h2 className="text-xl font-semibold text-indigo-600">{isCompleted ? "✅":"❌"} {title}</h2>
+            <div className="mt-4 ml-10">
             {children}
-        </div>
+            </div>
+        </section>
     )
 }
 

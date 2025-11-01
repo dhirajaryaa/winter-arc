@@ -17,6 +17,5 @@ in this winter arc challenge complete some goals.
 - [✅] Nested Routes
 - [✅] Catch all Routes & Optional
 - [✅] metadata update
-- [✅] Error page customized & custom Error Page on dynamic route
 - [✅] Portfolio setup page & dark_light mode
 - [❌] Theory - HTML Accessibility (aria-* attributes)
