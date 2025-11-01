@@ -1,4 +1,5 @@
 import Section from "@/components/Section";
+import VideoAdd from "@/components/VideoAdd";
 import Link from "next/link";
 
 export const metadata = {
@@ -13,6 +14,9 @@ export default function Day01() {
     return (
         <main className="w-full min-h-screen my-18">
             <h1 className="w-full text-5xl font-semibold text-center my-20">Day-01</h1>
+
+            <VideoAdd videoLink={"https://www.youtube.com/embed/mEGJlDQjSLs?si=uh7irO44q7jSlCQM"}/>
+
 
             <Section
                 isCompleted={true}
