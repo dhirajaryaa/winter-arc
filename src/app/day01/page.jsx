@@ -13,7 +13,10 @@ export const metadata = {
 export default function Day01() {
     return (
         <main className="w-full min-h-screen my-18">
-            <h1 className="w-full text-5xl font-semibold text-center my-20">Day-01</h1>
+             <div className="space-x-2 flex items-center justify-between">
+                <Link href='/' className='text-sm font-medium shrink-0'>⬅️Back to Home</Link>
+                <h1 className="flex-1 text-5xl font-semibold text-center my-20" aria-level={"Day01"}>Day-01</h1>
+            </div>
 
             <VideoAdd videoLink={"https://www.youtube.com/embed/mEGJlDQjSLs?si=uh7irO44q7jSlCQM"}/>
 
