@@ -1,13 +1,17 @@
 import Section from "@/components/Section"
+import Link from "next/link"
 
 function day2Page() {
     return (
-        <main className="w-full min-h-screen my-18">
-            <h1 className="w-full text-5xl font-semibold text-center my-20">Day-02</h1>
+        <main className="w-full min-h-screen my-18" aria-labelledby="day02">
+            <div className="space-x-2 flex items-center justify-center">
+                <Link href='/' className='text-sm font-medium'>⬅️Back to Home</Link>
+                <h1 className="w-full text-5xl font-semibold text-center my-20" aria-level={"Day02"}>Day-02</h1>
+            </div>
 
             <Section isCompleted={true} title={"Web Accessibility - important only"}>
-                <details className="mt-2">
-                    <summary>Semantic Tags in Html</summary>
+                <details className="mt-2"   >
+                    <summar>Semantic Tags in Html</summar>
                     <figure>
                         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20241127115416984900/html-sementics-layout.png" alt="semantics html dom image" />
                     </figure>
@@ -82,7 +86,21 @@ function day2Page() {
             >
                 <p>👉 create not-found.js page on root label to custom error page</p>
                 <p>👉 separate not found page not support only in dynamic routes work</p>
-                <p>👉 using js call <span className="bg-red-400">notfound()</span> to show 404 page in next.js</p>
+                <p>👉 using js call <span className="highlighted">notfound()</span> to show 404 page in next.js</p>
+            </Section>
+            <Section
+                isCompleted={true}
+                title={"Route Grouping and Private Routes"}
+            >
+                <p>👉 mainly use for organize routes </p>
+                <p>👉 create group Routes folder name wrap with <span className="highlighted">()</span> important</p>
+                <p>👉 ex: about and services routes in name- Dhiraj Arya</p>
+                <p>👉 private routes mean app routes based on file & folder not update data</p>
+                <p>👉 create using add folder name first  <span className="highlighted">underscore(_)</span> so its behave like private routes</p>
+                <p>👉 if any reason use underscore on routes for use <span className="highlighted">"%5F" intent of "_ "</span> not etc routes created
+
+                </p>
+
             </Section>
         </main>
     )

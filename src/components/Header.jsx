@@ -2,7 +2,7 @@ import { socialLinks } from "@/config/link"
 
 function Header() {
     return (
-        <header className="flex justify-center gap-5 items-center my- px-2">
+        <header className="flex justify-center gap-5 items-center p-4 z-30 fixed top-0 left-0 right-0  backdrop-blur-lg">
             <nav className="flex flex-wrap items-center justify-center gap-5 bg-violet-200 rounded-2xl px-4 py-2">
                 {socialLinks.map((link) => (
                     <a
