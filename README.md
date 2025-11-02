@@ -19,3 +19,11 @@ in this winter arc challenge complete some goals.
 - [✅] metadata update
 - [✅] Portfolio setup page & dark_light mode
 - [❌] Theory - HTML Accessibility (aria-* attributes)
+
+## Day02 - 02 Nov 2025
+
+- [✅] Theory - HTML Accessibility (aria-* attributes)
+- [✅] Error page customized 
+- [✅] Custom Error page on dynamic routes
+- [✅] Routes Grouping
+- [✅] Private Routes
