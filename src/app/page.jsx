@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="w-full min-h-screen max-w-3xl mx-auto">
-      <h1 className="w-full text-5xl font-semibold text-center mt-20">Winter Arc Challenge ❄️</h1>
+      <h1 className="w-full text-5xl font-semibold text-center mt-10">Winter Arc Challenge ❄️</h1>
       <p className="w-full text-lg font-normal text-slate-700 text-center mt-2">This app related to my winter arc challenge all demo, codefiles and more</p>
 
       <VideoAdd
