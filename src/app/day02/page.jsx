@@ -75,6 +75,15 @@ function day2Page() {
 
 
             </Section>
+
+            <Section
+                isCompleted={true}
+                title={"Not Found page in next.js"}
+            >
+                <p>👉 create not-found.js page on root label to custom error page</p>
+                <p>👉 separate not found page not support only in dynamic routes work</p>
+                <p>👉 using js call <span className="bg-red-400">notfound()</span> to show 404 page in next.js</p>
+            </Section>
         </main>
     )
 }
