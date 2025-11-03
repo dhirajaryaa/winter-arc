@@ -34,6 +34,7 @@ function day3Page() {
                 <p className='mt-2'>👉 Static File create when build and every time server build file</p>
                 <p className='mt-2'>👉 dynamic routes file build on fly <span className='highlighted'>[realtime build on next js server]</span></p>
                 <p className='mt-2'>👉 default only visible links csr data coming on request</p>
+                <p className='mt-2'>👉 Next.js 13+ use a custom MIME type  to stream component data from the server to the client.</p>
             </Section>
         </main>
     )
