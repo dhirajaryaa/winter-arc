@@ -74,7 +74,7 @@ function day2Page() {
         ].map(({ label, code }, i) => (
           <div key={i} className="mt-4">
             <p>👉 {label}</p>
-            <pre className="p-2 bg-gray-200 rounded overflow-auto whitespace-pre-wrap break-words">
+            <pre className="p-2 bg-gray-200 rounded overflow-auto whitespace-pre-wrap wrap-break-word">
               <code className="wrap-break-word whitespace-pre-wrap">{code}</code>
             </pre>
           </div>

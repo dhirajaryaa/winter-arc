@@ -10,18 +10,7 @@ export default function Home() {
       <VideoAdd
         videoLink={"https://www.youtube.com/embed/1MFLDBCxXuc?si=h7JbViUb5bm3rWUU"}
       />
-      {/* <div className="flex justify-center items-center mt-10 w-full">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/1MFLDBCxXuc?si=h7JbViUb5bm3rWUU"
-          title="YouTube video player"
-          frameBorder="0"
-          allowFullScreen
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-        />
-      </div> */}
+     
 
       <div className="flex justify-center items-center mt-10 flex-col w-full">
         <nav className="space-y-3">
@@ -30,6 +19,9 @@ export default function Home() {
           </Link>
           <Link href="/day02" className="block text-lg font-semibold text-emerald-500 hover:text-emerald-700">
             Day 02↗️
+          </Link>
+          <Link href="/day03" className="block text-lg font-semibold text-emerald-500 hover:text-emerald-700">
+            Day 03↗️
           </Link>
         </nav>
       </div>
