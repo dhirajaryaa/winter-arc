@@ -27,3 +27,11 @@ in this winter arc challenge complete some goals.
 - [✅] Custom Error page on dynamic routes
 - [✅] Routes Grouping
 - [✅] Private Routes
+
+## Day03 - 03 Nov 2025
+
+- [✅] Different types of Rendering in next.js
+- [✅] Static Rendering and Dynamic Rendering
+- [✅] Static Site Generation in Next.js | SSG
+- [✅] generateStaticParams() for dynamic file generation
+- [✅] dynamicParams() to prevent file generation
