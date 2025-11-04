@@ -19,8 +19,8 @@ function day3Page() {
                 </h1>
             </div>
 
-            {/* <VideoAdd videoLink="https://www.youtube.com/embed/EyHZTlFa-kc?si=Ja9XFEEUKaMnNMvd" /> */}
-
+            <VideoAdd videoLink="https://www.youtube.com/embed/pvuy-0YhuDs?si=mbU4oFUEJVg7tFrm" />
+          
             <Section isCompleted={true} title={"Rendering in next.js"}>
                 <p className='mt-2'>👉 next.js 4 different type of render use</p>
                 <p className='mt-2'>👉 1. SSR - Server Side Rendering</p>
