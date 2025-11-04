@@ -22,7 +22,7 @@ function day4Page() {
                 </h1>
             </div>
 
-            {/* <VideoAdd videoLink="https://www.youtube.com/embed/pvuy-0YhuDs?si=mbU4oFUEJVg7tFrm" /> */}
+            <VideoAdd videoLink="https://www.youtube.com/embed/OYW1tEleqFM?si=2rLzZh9Ku3QQt66m" />
 
             <Section isCompleted={true} title='Incremental Site Regeneration in next.js'>
                 <p className="mt-2">👉 if static site generation sort pried of time regeneration so its call ISR. </p>
