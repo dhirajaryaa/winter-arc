@@ -1,7 +1,6 @@
 import Section from '@/components/Section'
 import VideoAdd from '@/components/VideoAdd'
 import Link from 'next/link'
-import React from 'react'
 
 function day3Page() {
     return (
