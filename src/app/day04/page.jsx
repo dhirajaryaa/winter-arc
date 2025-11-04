@@ -2,22 +2,23 @@ import ClientCom from "@/components/ClientCom"
 import Section from "@/components/Section"
 import VideoAdd from "@/components/VideoAdd"
 import Link from "next/link"
+import { Suspense } from "react"
 
 export const dynamic = "force-dynamic"
 
 function day4Page() {
     return (
-        <main className="w-full min-h-screen my-18" aria-labelledby="day02">
+        <main className="w-full min-h-screen my-18" aria-labelledby="day04">
             <div className="space-x-2 flex items-center justify-between">
                 <Link href="/" className="text-sm font-medium shrink-0">
                     ⬅️Back to Home
                 </Link>
                 <h1
-                    id="day02"
+                    id="day04"
                     className="flex-1 text-5xl font-semibold text-center my-10"
-                    aria-level={2}
+                    aria-level={4}
                 >
-                    Day-03
+                    Day-04
                 </h1>
             </div>
 
@@ -64,7 +65,17 @@ function day4Page() {
                 <p className="mt-2">👉 client comp. when need interactivity on page</p>
                 <p className="mt-2">👉 make client comp. so add top on page <span className="highlighted">"use client"</span> keyword</p>
                 <p className="mt-2">👉 react hook etc use on client comp. support</p>
+                <p className="mt-2">👉 Any child comp. inside all component automatic become child component</p>
+                {/* this is client component  */}
                 <ClientCom />
+            </Section>
+
+            <Section isCompleted={true} title={"Hydration Error on Next.js"}>
+                <p className="mt-2">👉 if render html and server html are not match so throw hydration error</p>
+                <p className="mt-2">👉 if any link add on page so hydration error possible</p>
+                <p className="mt-2">👉 Error show only on Development mode not in production</p>
+                <p className="mt-2">👉 its user experience not good</p>
+
             </Section>
         </main>
     )

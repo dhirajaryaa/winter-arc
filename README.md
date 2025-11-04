@@ -35,3 +35,12 @@ in this winter arc challenge complete some goals.
 - [✅] Static Site Generation in Next.js | SSG
 - [✅] generateStaticParams() for dynamic file generation
 - [✅] dynamicParams() to prevent file generation
+
+## Day04 - 04 Nov 2025
+
+- [✅] Incremental Site Regeneration
+- [✅] Force Static page make it Dynamic Rendering
+- [✅] page behavior change using `dynamic` options
+- [✅] streaming in Next.js
+- [✅] server components vs client components
+- [✅] Hydration Error on next.js
