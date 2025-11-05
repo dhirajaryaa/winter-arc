@@ -29,9 +29,7 @@ function day5Page() {
             <Section isCompleted={true} title='Data fetching in next.js'>
                 <p className="mt-2">👉 if static site generation sort pried of time regeneration so its call ISR. </p>
                 <p className="mt-2">👉 <span className="highlighted">Client Comp. API CAll</span> normally same like react.js</p>
-                <DataFetch>
-                    <ServerComp content={subData} />
-                </DataFetch>
+                <DataFetch/>
                 <p className="mt-2">👉 <span className="highlighted">Server Comp. API CAll</span></p>
                 <div className="mt-2  p-2 rounded-lg space-y-2">
                     <Suspense fallback='Loading....'>
@@ -49,6 +47,9 @@ function day5Page() {
                 <p className="mt-2">👉 By Default parent component is client comp. so automatically inside all render components become client components</p>
                 <p className="mt-2">👉 <span className="highlighted">if prevent it so pass server comp. as children or props on client comp. and then render in client component.</span></p>
                 <p className="mt-2">👉 very useful when use redux, context api or any state management library</p>
+                <DataFetch>
+                    <ServerComp words={subData} />
+                </DataFetch>
             </Section>
         </main>
     )

@@ -10,25 +10,26 @@ export default function Home() {
       <VideoAdd
         videoLink={"https://www.youtube.com/embed/1MFLDBCxXuc?si=h7JbViUb5bm3rWUU"}
       />
-     
+
 
       <div className="flex justify-center items-center mt-10 flex-col w-full">
-        <nav className="space-y-3">
-          <Link href="/day01" className="block text-lg font-semibold text-emerald-500 hover:text-emerald-700">
+        <nav className="gap-3 grid grid-cols-3 md:grid-cols-5 grid-rows-auto">
+          <Link href="/day01" className="text-lg font-semibold text-emerald-500 hover:text-emerald-700">
             Day 01↗️
           </Link>
-          <Link href="/day02" className="block text-lg font-semibold text-emerald-500 hover:text-emerald-700">
+          <Link href="/day02" className="text-lg font-semibold text-emerald-500 hover:text-emerald-700">
             Day 02↗️
           </Link>
-          <Link href="/day03" className="block text-lg font-semibold text-emerald-500 hover:text-emerald-700">
+          <Link href="/day03" className="text-lg font-semibold text-emerald-500 hover:text-emerald-700">
             Day 03↗️
           </Link>
-          <Link href="/day04" className="block text-lg font-semibold text-emerald-500 hover:text-emerald-700">
+          <Link href="/day04" className="text-lg font-semibold text-emerald-500 hover:text-emerald-700">
             Day 04↗️
           </Link>
-          <Link href="/day05" className="block text-lg font-semibold text-emerald-500 hover:text-emerald-700">
+          <Link href="/day05" className="text-lg font-semibold text-emerald-500 hover:text-emerald-700">
             Day 05↗️
           </Link>
+         
         </nav>
       </div>
     </main>

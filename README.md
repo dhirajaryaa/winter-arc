@@ -44,3 +44,10 @@ in this winter arc challenge complete some goals.
 - [✅] streaming in Next.js
 - [✅] server components vs client components
 - [✅] Hydration Error on next.js
+
+## Day05 - 05 Nov 2025
+
+- [✅] Data Fetching in Next.js
+- [✅] Parallel api calling [`Promises.all()`]
+- [✅] Loading State show UI
+- [✅] Render Server components in Client components
