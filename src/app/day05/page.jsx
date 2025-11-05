@@ -29,9 +29,9 @@ function day5Page() {
             <Section isCompleted={true} title='Data fetching in next.js'>
                 <p className="mt-2">👉 if static site generation sort pried of time regeneration so its call ISR. </p>
                 <p className="mt-2">👉 <span className="highlighted">Client Comp. API CAll</span> normally same like react.js</p>
-                <DataFetch content={<ServerComp content={subData?.map((data) =>
-                    <span key={data} className="px-3 rounded-lg py-1 bg-gray-800 text-gray-50 text-sm">{data}</span>)
-                } />} />
+                <DataFetch>
+                    <ServerComp content={subData} />
+                </DataFetch>
                 <p className="mt-2">👉 <span className="highlighted">Server Comp. API CAll</span></p>
                 <div className="mt-2  p-2 rounded-lg space-y-2">
                     <Suspense fallback='Loading....'>
@@ -45,8 +45,10 @@ function day5Page() {
                 <p className="mt-2">👉 using <span className="highlighted">Promise.all([...])</span> use to call parallel api call, if not depending on each others.</p>
             </Section>
 
-            <Section isCompleted={false} title='Render server component in client component'>
-
+            <Section isCompleted={true} title='Render server component in client component'>
+                <p className="mt-2">👉 By Default parent component is client comp. so automatically inside all render components become client components</p>
+                <p className="mt-2">👉 <span className="highlighted">if prevent it so pass server comp. as children or props on client comp. and then render in client component.</span></p>
+                <p className="mt-2">👉 very useful when use redux, context api or any state management library</p>
             </Section>
         </main>
     )

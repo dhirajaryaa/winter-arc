@@ -3,7 +3,7 @@
 import { useState } from "react";
 import ServerComp from "./ServerComp";
 
-function DataFetch({content}) {
+function DataFetch({children}) {
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
 
@@ -27,7 +27,7 @@ function DataFetch({content}) {
                 ))}
                 {loading && <p className="text-lg text-violet-500 font-semibold text-center my-8 ">Loading...</p>}
             </div>
-           {content}
+           {children}
         </div>
     )
 }
