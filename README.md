@@ -51,3 +51,9 @@ in this winter arc challenge complete some goals.
 - [✅] Parallel api calling [`Promises.all()`]
 - [✅] Loading State show UI
 - [✅] Render Server components in Client components
+
+## Day06 - 06 Nov 2025
+
+- [✅] Error Handling in Next.js
+- [✅] Global Error Handling in Next.js
+- [❌] Image Optimization in Next.js 
