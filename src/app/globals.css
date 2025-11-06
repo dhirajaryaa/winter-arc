@@ -1,24 +1,33 @@
 @import "tailwindcss";
 
+/* Base theme variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* Dark theme overrides via media query */
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+/* Optional: Custom variant for dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Tailwind theme extension (if using inline theme config) */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
 }
 
+/* Utility class for highlighted elements */
 .highlighted {
   @apply bg-amber-400 text-gray-900 px-2 py-1 font-medium;
 }
