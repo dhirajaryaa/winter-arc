@@ -24,8 +24,8 @@ function day5Page() {
                 </h1>
             </div>
 
-            {/* <VideoAdd videoLink="https://www.youtube.com/embed/pvuy-0YhuDs?si=mbU4oFUEJVg7tFrm" /> */}
-
+            <VideoAdd videoLink="https://www.youtube.com/embed/EauUMlfeUvY?si=t1gS7Sx7743yerO1" />
+            
             <Section isCompleted={true} title='Data fetching in next.js'>
                 <p className="mt-2">👉 if static site generation sort pried of time regeneration so its call ISR. </p>
                 <p className="mt-2">👉 <span className="highlighted">Client Comp. API CAll</span> normally same like react.js</p>
