@@ -2,6 +2,10 @@ import Section from "@/components/Section";
 import VideoAdd from "@/components/VideoAdd";
 import Link from "next/link";
 
+export const metadata = {
+    title: "Day 2"
+}
+
 function day2Page() {
   return (
     <main className="w-full min-h-screen my-18" aria-labelledby="day02">

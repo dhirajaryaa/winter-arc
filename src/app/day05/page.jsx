@@ -6,6 +6,10 @@ import VideoAdd from "@/components/VideoAdd"
 import Link from "next/link"
 import { Suspense } from "react"
 
+export const metadata = {
+    title: "Day 5"
+}
+
 
 function day5Page() {
     const subData = ["song", "tree", "pat", "natures"];

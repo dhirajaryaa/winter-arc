@@ -6,6 +6,10 @@ import { Suspense } from "react"
 
 export const dynamic = "force-dynamic"
 
+export const metadata = {
+    title: "Day 4"
+}
+
 function day4Page() {
     return (
         <main className="w-full min-h-screen my-18" aria-labelledby="day04">
