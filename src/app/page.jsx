@@ -35,6 +35,9 @@ export default function Home() {
             <Link href="/day06" className="text-lg font-semibold text-emerald-500 hover:text-emerald-700">
               Day 06↗️
             </Link>
+            <Link href="/day07" className="text-lg font-semibold text-emerald-500 hover:text-emerald-700">
+              Day 07↗️
+            </Link>
 
           </nav>
         </div>
