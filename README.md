@@ -10,7 +10,6 @@ in this winter arc challenge complete some goals.
 - solid on theory [react, js, html, os, networking]
 - English Better
 
-
 ## Day01 - 01 Nov 2025
 
 - [✅] Next.js APP Router
@@ -18,12 +17,12 @@ in this winter arc challenge complete some goals.
 - [✅] Catch all Routes & Optional
 - [✅] metadata update
 - [✅] Portfolio setup page & dark_light mode
-- [❌] Theory - HTML Accessibility (aria-* attributes)
+- [❌] Theory - HTML Accessibility (aria-\* attributes)
 
 ## Day02 - 02 Nov 2025
 
-- [✅] Theory - HTML Accessibility (aria-* attributes)
-- [✅] Error page customized 
+- [✅] Theory - HTML Accessibility (aria-\* attributes)
+- [✅] Error page customized
 - [✅] Custom Error page on dynamic routes
 - [✅] Routes Grouping
 - [✅] Private Routes
@@ -56,4 +55,11 @@ in this winter arc challenge complete some goals.
 
 - [✅] Error Handling in Next.js
 - [✅] Global Error Handling in Next.js
-- [❌] Image Optimization in Next.js 
+- [❌] Image Optimization in Next.js
+
+## Day07 - 07 Nov 2025
+
+- [✅] Image Component in Next.js
+- [✅] Image compressed quality control
+- [✅] External Image hostname config
+- [✅] loader fn for use query based optimization provider [cloudinary,imageKit,etc.]
