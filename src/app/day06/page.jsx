@@ -30,7 +30,8 @@ function day6Page() {
                 </h1>
             </div>
 
-            {/* <VideoAdd videoLink="https://www.youtube.com/embed/EauUMlfeUvY?si=t1gS7Sx7743yerO1" /> */}
+            <VideoAdd videoLink="https://www.youtube.com/embed/j14x5P5nAUw?si=VyShvYboXjEA5WMt" />
+          
 
             <Section isCompleted={true} title='Error Handling in Next.js'>
                 <p className="mt-2">👉 Page Level Error.js page create work as error fallback.</p>
