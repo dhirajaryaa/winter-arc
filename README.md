@@ -63,3 +63,9 @@ in this winter arc challenge complete some goals.
 - [✅] Image compressed quality control
 - [✅] External Image hostname config
 - [✅] loader fn for use query based optimization provider [cloudinary,imageKit,etc.]
+
+## Day08 - 08 Nov 2025
+
+- [✅] create api endpoint in next.js
+- [✅] GET req handle
+- [✅] dynamic req handle 
