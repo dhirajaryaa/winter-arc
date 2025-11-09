@@ -24,7 +24,7 @@ function day8Page() {
                 </h1>
             </div>
 
-            {/* <VideoAdd videoLink="https://www.youtube.com/embed/j14x5P5nAUw?si=VyShvYboXjEA5WMt" /> */}
+            <VideoAdd videoLink="https://www.youtube.com/embed/3D52eTAVfro?si=1WLZuGcqpIH5kbAp" />
 
 
             <Section isCompleted={true} title='Server in next.js [ API endpoint ]'>
