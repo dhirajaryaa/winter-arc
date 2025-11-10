@@ -32,14 +32,14 @@ function day8Page() {
                 <p className="mt-2">👉 page and route both on same folder so don't work.</p>
                 <p className="mt-2">👉 create handler so export default method type name. [its must be capital latter method name]</p>
                 <p className="mt-2">👉 create handler so export default method type name. [its must be capital latter method name like: <span className="highlighted">POST,GET</span>]</p>
-                  <pre className="p-2 mt-1 bg-gray-200 rounded overflow-auto whitespace-pre-wrap wrap-break-word">
+                <pre className="p-2 mt-1 bg-gray-200 rounded overflow-auto whitespace-pre-wrap wrap-break-word">
                     <code className="wrap-break-word whitespace-pre-wrap">{`export async function GET(req) {
   console.log(req);
   return Response.json({ message: "Hello from API", req: req.url });
 }`}</code>
                 </pre>
                 <p className="mt-2">👉 get params in routes same like create folder <span className="highlighted">[paramsName]</span> then this folder routes.js file get as second argument</p>
-                  <pre className="p-2 mt-1 bg-gray-200 rounded overflow-auto whitespace-pre-wrap wrap-break-word">
+                <pre className="p-2 mt-1 bg-gray-200 rounded overflow-auto whitespace-pre-wrap wrap-break-word">
                     <code className="wrap-break-word whitespace-pre-wrap">{`export async function GET(_, { params }) {
   console.log(await params);
 
