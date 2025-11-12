@@ -1,0 +1,27 @@
+[
+    {
+        "task": "Buy milk",
+        "isCompleted": true,
+        "id": 1
+    },
+    {
+        "task": "Buy eggs",
+        "isCompleted": false,
+        "id": 2
+    },
+    {
+        "task": "Buy bread",
+        "isCompleted": false,
+        "id": 3
+    },
+    {
+        "task": "Buy cheese",
+        "isCompleted": true,
+        "id": 4
+    },
+    {
+        "task": "Buy butter",
+        "isCompleted": false,
+        "id": 5
+    }
+]

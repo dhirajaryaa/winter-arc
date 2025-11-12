@@ -69,3 +69,14 @@ in this winter arc challenge complete some goals.
 - [✅] create api endpoint in next.js
 - [✅] GET req handle
 - [✅] dynamic req handle 
+
+---
+> "due to my wifi issues, I had a gap on three days"
+---
+## Day09 - 12 Nov 2025
+
+- [✅] POST, PUT, DELETE req handle
+- [✅] SAAS Product Setup [ThinkBin]
+- [✅] SAAS landing page created
+- [✅] Live on vercel
+- [✅] Jira setup
